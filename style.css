@@ -176,7 +176,19 @@ font-size: 12px;
           
            
        }
-       .top-player{
+       .top-player, {
            justify-content: center;
+           flex-direction: column;
+       }
+       .article-1{
+
+        flex-direction: column;
+    align-items: center;
+       }
+       .info-mama{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
        }
  }
