@@ -29,7 +29,43 @@ main{
    
 }
 
+/* header-section */
+header{
 
+    background-color: #562EFF;
+    margin-bottom: 16px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+    
+}
+nav .logo{
+    font-size: 24;
+    color: white;
+}
+ul{
+display: flex;
+align-items: center;
+
+}
+li{
+ list-style-type: none;
+ margin-right: 35px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+li:hover a{
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 
 /* section 1 */
