@@ -171,7 +171,7 @@ font-size: 12px;
         width: 100%;
        
       }
-       .players, .blogs-grid{
+       .players, .blogs-grid, .course-info{
            grid-template-columns: repeat(1,1fr);
           
            
